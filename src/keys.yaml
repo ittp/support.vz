@@ -1,0 +1,46 @@
+
+
+keys:
+
+  - name: transport
+    title: 'Комитет по транспорту'
+    locations:
+      k-transp1 
+      k-transp2
+      k-transp3
+      k-transp4
+      k-transp5
+
+peterhof:
+  gku-guzhapetrodv1
+
+tariff: [ k-tarif1 ]
+culture: [ k-kult1 ]
+laws: 
+  - 
+com:
+  - k-zakon2: ${com}
+  - k-rti1
+  - k-zdrav1
+  - k-rti1
+  - k-zhil1
+
+gku:
+  - gku-bomzh3
+  - gku-orgper4
+  - gku-umcgochs3
+  - gku-hosp4
+  - gku-umcgochs5
+  - gku-umcgochs11
+
+orgp:
+  gku-orgper7
+
+cb: 
+  gku-cb10
+
+ckb: gku-centrblag3
+pso: 
+   gku-pso30
+   gku-pso40  
+   gku-tcpso1
