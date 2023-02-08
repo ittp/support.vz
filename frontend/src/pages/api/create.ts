@@ -6,7 +6,15 @@ type Data = {
   data: any;
 };
 
-import axios from "axios";
+import axios from "axios"
+
+
+let config = {
+  baseURL: "https://api.pyrus.com",
+  headers: {
+    Authorization: `Bearer ${access_token}`
+  }
+}
 
 export default function handler(
   req: NextApiRequest,
